@@ -1,0 +1,1031 @@
+body {
+    background-color: whitesmoke;
+    //overflow: hidden;
+    word-wrap: break-word;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-align:justify;
+    font-family: 'Karla', sans-serif;
+    //text-align: justify;
+}
+
+header{
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(142,166,155);
+    top:0;
+    padding-bottom: 3%;
+    vertical-align: middle;
+    position:fixed;
+}
+
+#banner{
+    margin : 0 auto;
+    //background-color: blue;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    padding-top:2%;
+    
+}
+
+#mode{
+    //background-color: yellow;
+    padding-left: 10px;
+    float: left;
+    //font-size: 15px;
+}
+
+#screenModeImg{
+    padding-top:3px;
+    height: 15px;  
+    
+}
+
+  
+#buttonNavigation{
+    //background-color: brown;
+    align-content: center;
+    vertical-align: middle;
+}
+
+button{
+    background-color: rgb(142,166,155);
+    padding-left: 1%;
+    padding-right: 1%;
+    border: none;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button#btnTranslate{
+    //background-color: blueviolet;
+    float: right;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 2%;
+    margin-top:1px;
+    border: none;
+
+    #flag{
+        width: 20px;
+        height: 12px;
+        padding:0 0 0 5px;
+        margin-top: 4px;
+        
+        //padding-left: 5%;
+    }
+}
+
+button:hover{
+   color:white
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration:underline;
+    color: black;
+}
+
+hr{
+    border:none; 
+    border-top:10px dotted rgb(142,166,155);
+    width: 30%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    //background-color: chocolate;
+}
+
+.bloc{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 95%;
+    //border: solid;
+    padding-left: 1%;
+    padding-right: 1%;
+    //background-color: yellow;
+}
+
+z{
+    color: rgb(142,166,155);
+}
+
+#hello{
+    margin-top: 20%;
+    //background-color: chartreuse;
+    text-align: center;
+
+    #name{
+        font-size: 26px;
+        font-family: "Trirong", serif;
+    }
+}
+
+#profileImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 275px;
+    height: 315px;
+    border-radius: 25%;
+    padding-top: 5%;
+}
+
+#profileImg:hover{
+    content:url("../img/riccarde_smile_tr.png");
+}
+
+#Category{
+    text-align: center;
+    font-size: 30px;
+    //background-color: red;
+    text-decoration: underline overline rgb(142,166,155);
+    font-family: "Sofia", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+#txtAboutMe{
+    text-justify: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+
+
+ #desc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8%;
+    margin-left: 3%;
+    margin-right: 1%;
+    width: 95%;
+
+    span#left{
+        width: 30%;
+        //background-color: aqua;
+        font-weight: bold;
+    
+    }
+    
+    span#middle{
+        width: 8%;
+        //background-color: red;
+        text-align: center;
+    }
+    
+    span#right{
+        width: 62%;
+        //background-color: rgb(0, 183, 255);
+    }
+    
+    #screenMedia{
+        padding-top:3px;
+        padding-left: 3px;
+        padding-right: 3px;
+        height: 25px;      
+    }
+    
+    #screenMedia:hover{
+        height: 27px;
+        opacity: 0.7;  
+        
+    }
+}
+
+
+
+#languages{
+    display:table;
+    //background-color: cornflowerblue;
+    margin:auto;
+    
+
+    #langImg{
+        margin-top:3%;
+        padding-top:3%;
+        padding-left:1%;
+        padding-right:1%;
+        //background-color: brown;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #screenLang{
+        //background-color: rgb(222, 135, 208);
+        width: 60px;
+        height: 75px;
+        padding-left: 1%;
+        padding-bottom: 5%;
+        
+        }
+
+        #screenLang:hover{
+            //background-color: white;
+            opacity: 0.4;
+        }
+        
+    }
+
+#softs{
+    display:table;
+    //background-color: cornflowerblue;
+    margin:auto;
+    width: 97%;
+
+    #softsImg{
+        margin-top:3%;
+        padding-top:3%;
+        padding-left:1%;
+        padding-right:1%;
+        //background-color: brown;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    #screenSofts{
+        width: 60px;
+        height: 75px;
+        padding-left: 1%;
+        padding-bottom: 5%;
+        //background-color: burlywood;
+    }
+    #screenSofts:hover{
+        //background-color: white;
+        opacity: 0.4;
+    }
+    
+}
+
+#db{
+    display:table;
+    //background-color: cornflowerblue;
+    width: 98%;
+
+    #dbImg{
+        margin-top:3%;
+        padding-top:3%;
+        padding-left:1%;
+        padding-right:1%;
+        //background-color: brown;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    
+    #screenBd{
+        width: 60px;
+        height: 75px;
+        //background-color: burlywood;
+
+    }
+    #screenBd:hover{
+        //background-color: white;
+        opacity: 0.4;
+        }
+    }
+}
+
+
+
+#contactMe{
+    margin-top: 3%;
+    //background-color: yellow;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+#btnContener{
+    //background-color: aqua;
+    margin: auto;
+    width: 35%;
+    margin-top: 0;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button#contactButton{
+        background-color:rgb(142,166,155);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    button#contactButton:hover{
+        background-color:rgb(121, 167, 145);
+        
+    }
+}
+
+#alert{
+    color:rgb(142,166,155)
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    padding-top:5px;
+    background-color: rgb(142,166,155);
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+    float: left;
+}
+
+
+@media screen and (min-width: 500px){
+
+    #Category{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    #desc{
+        
+        //background-color: pink;
+        margin:auto;
+        width: 70%;
+        margin-top:5%;
+        margin-left:17%;
+    }
+
+    span#left{
+        width: 10px;
+        //background-color: aqua;
+        font-weight: bold;
+        text-align: right;
+
+    }
+
+    span#middle{
+
+        //background-color: red;
+        text-align: center;
+        
+    }
+
+    span#right{
+
+        //background-color: red;
+        //text-align: center;
+    
+    }
+    #db{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
+
+@media screen and (min-width: 640px){
+    body{
+        font-size: 17px;
+    }
+
+    button{
+        background-color: rgb(142,166,155);
+        padding-left: 3%;
+        padding-right: 3%;
+        border: none;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    button#btnTranslate{
+        padding: 0;
+        font-size: 16px;
+        margin-right: 2%;
+        margin-top:0;
+    
+        #flag{
+            width: 22px;
+            height: 13px;
+            padding:0 0 0 5px;
+            margin-top:5px;
+            //padding-left: 5%;
+        }
+    }
+
+       
+    #hello{
+        margin-top: 15%;
+
+        #name{
+            font-size: 36px;
+            font-family: "Trirong", serif;
+        
+        }
+
+        #txtAboutMe{
+            padding-right: 2%;
+            padding-left: 2%;
+            text-align: justify;
+        }
+    }
+
+
+    #desc{
+        
+        //background-color: pink;
+        //margin:auto;
+        width: 61%;
+        margin-top:5%;
+        margin-left:22%;
+    }
+
+    #Category{
+        font-size: 36px;
+        letter-spacing: 5px;
+    }
+
+    hr{
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+
+    span#left{
+        width: 32%;
+        //background-color: aqua;
+        font-weight: bold;
+    
+    }
+    
+    span#middle{
+        width: 8%;
+        //background-color: red;
+        text-align: center;
+    }
+    
+    span#right{
+        width: 60%;
+        //background-color: yellow;
+    }
+    
+    #screenMedia{
+        padding-top:3px;
+        padding-left: 3px;
+        padding-right: 3px;
+        height: 25px;      
+    }
+
+    #screenMedia{
+        padding-top:3px;
+        padding-left: 3px;
+        padding-right: 3px;
+        height: 25px;  
+        
+    }
+
+    
+    #db{
+        width: 50%;
+        margin-left: 25%;
+        margin-right:25%;
+     }
+    
+}
+
+@media screen and (min-width: 790px){
+
+    #Category{
+        font-size: 40px;
+        letter-spacing: 6px;
+    }
+
+    #desc{
+        margin-top: 8%;
+    }
+    
+    #softs{
+        width: 70%;
+    }
+    
+}
+
+    @media screen and (min-width: 1000px){
+        body{
+            font-size: 16px;
+        }
+
+        header{
+            padding-bottom: 2%;
+ 
+        }
+
+        #banner{
+            padding-top:2%;
+            
+        }
+    
+        button{
+            font-size: 16px;
+        }
+
+        .bloc{
+            margin-left: 7.5%;
+            margin-right: 7.5%;
+            width: 85%;
+        }
+
+        hr{
+            margin-top: 15%;
+            margin-bottom: 15%;
+        }
+
+    
+        #hello{
+          margin-top: 15%;
+            #name{
+                font-size: 40px;
+                font-family: "Trirong", serif;
+            
+            }
+        }
+    
+        #txtAboutMe{
+            
+        }
+    
+        #desc{
+            width:55%;
+            //background-color: blue;
+            margin:auto;
+            margin-top:5%
+        }
+    
+        #screenMedia{
+            padding-top:3px;
+            padding-left: 5px;
+            padding-right: 5px;
+            height: 27px;  
+            
+        }
+
+        #languages{
+            //background-color: cornflowerblue;
+            width: 80%;
+            #screenLang{
+                padding-bottom: 0;
+            }
+              
+        }
+        
+        #softs{
+            //background-color: yellow;
+        
+            #screenSofts{
+                padding-left:1.5%;
+                padding-right:1.5%;
+                padding-bottom: 0;
+
+            }
+        }
+        
+        #db{
+            //background-color: yellow;
+        
+            #screenBd{
+                
+                //background-color: burlywood;
+            }
+            
+        }
+
+        #contactMe{
+            margin-top: 3%;
+            margin-bottom: 5%;
+        }
+
+    }
+
+    @media screen and (min-width: 1260px){
+
+        header{
+            padding-bottom: 1.52%;
+ 
+        }
+
+        #banner{
+            padding-top:1.5%;
+            
+        }
+    
+        button{
+            font-size: 20px;
+        }
+
+        button#btnTranslate{
+            padding: 0;
+            font-size: 22px;
+            margin-top:0;
+        
+            #flag{
+                width: 28px;
+                height: 15px;
+            }
+        }
+
+        hr{
+            margin-top: 12%;
+            margin-bottom: 12%;
+        }
+
+        #Category{
+            font-size: 42px;
+            letter-spacing: 7px;
+        }
+
+    
+        #hello{
+            margin-top: 12.5%;
+            #name{
+                font-size: 50px;
+                font-family: "Trirong", serif;
+            
+            }
+        }
+    
+        #txtAboutMe{
+            
+        }
+    
+        #desc{
+            width:50%;
+            //background-color: blue;
+            margin:auto;
+            margin-top: 4%;
+            
+        }
+    
+
+        #languages{
+            //background-color: cornflowerblue;
+        
+            #screenLang{
+                //background-color: rgb(222, 135, 208);
+                // width: 9%;
+                // padding-bottom: 0;
+                // padding-left: 1%;
+            }
+              
+        }
+        
+        #softs{
+            //background-color: yellow;
+        
+            #screenSofts{
+                width: 9%;
+                padding-left: 1%;
+                padding-bottom: 0;
+                //background-color: burlywood;
+
+        }
+        
+        #db{
+            //background-color: yellow;
+        
+            #screenBd{
+                width: 9%;
+                padding-left: 1%;
+                //background-color: burlywood;
+            }
+            
+        }
+
+    }
+
+    @media screen and (min-width: 1350px){
+    
+        button{
+            font-size: 22px;
+        }
+
+        button#btnTranslate{
+            padding: 0;
+            font-size: 24px;
+            margin-top:0;
+        
+            #flag{
+                width: 30px;
+                height: 16px;
+            }
+        }
+
+
+        hr{
+            margin-top: 12%;
+            margin-bottom: 12%;
+        }
+
+        .bloc{
+            margin-left: 15%;
+            margin-right: 15%;
+            width: 70%;
+        }
+
+    
+        #hello{
+            margin-top: 12%;
+    
+        }
+    
+        #txtAboutMe{
+            
+        }
+    
+        #desc{
+            width:45%;
+            //background-color: blue;
+            margin:auto;
+            margin-left: 30%;
+            margin-top:4%
+        }
+    
+
+        #languages{
+            //background-color: cornflowerblue;
+        
+            #screenLang{
+                //background-color: rgb(222, 135, 208);
+                padding-left: 1%;
+            }
+              
+        }
+        
+        #softs{
+            //background-color: yellow;
+        
+            #screenSofts{
+                width: 8%;
+                padding-left: 1%;
+    
+                //background-color: burlywood;
+            }
+        }
+        
+        #db{
+            //background-color: yellow;
+        
+            #screenBd{
+                width: 9%;
+                padding-left: 1%;
+                //background-color: burlywood;
+            }
+            
+        }
+    }
+    #contactMe{
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+}
+
+
+@media screen and (min-width: 1580px){
+    body{
+        font-size: 14px;
+    }
+
+    header{
+        padding-bottom: 1.25%;
+
+    }
+
+    #banner{
+        padding-top:1.25%;
+        
+    }
+
+    hr{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+
+    .bloc{
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+    }
+
+
+    #hello{
+        margin-top: 10%;
+
+    }
+
+    #txtAboutMe{
+        
+    }
+
+    #desc{
+        width:40%;
+        //background-color: blue;
+        //margin:auto;
+        //margin-top: 4%;
+        margin-top:5%
+
+        
+    }
+
+
+    #languages{
+        //background-color: cornflowerblue;
+    
+        #screenLang{
+            //background-color: rgb(222, 135, 208);
+            // width: 7%;
+            // padding-left: 2%;
+            width: 78px;
+            height: 100px;
+        }
+          
+    }
+    
+    #softs{
+        //background-color: yellow;
+    
+        #screenSofts{
+            width: 78px;
+            height: 100px;
+            padding-right: 1%;
+            padding-left: 1%;
+
+            //background-color: burlywood;
+        }
+    }
+    
+    #db{
+        //background-color: yellow;
+        width: 20%;
+        margin: auto;
+    
+        #screenBd{
+            width: 78px;
+            height: 120px;
+
+            //background-color: burlywood;
+        }
+        
+    }
+
+    button#contactButton{
+        background-color:rgb(142,166,155);
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 1950px){
+    body{
+        font-size: 13px;
+    }
+
+    header{
+        padding-bottom: 1%;
+
+    }
+
+    #banner{
+        padding-top:1%;
+        
+    }
+
+    .bloc{
+        margin-left: 17.5%;
+        margin-right: 17.5%;
+        width: 65%;
+    }
+
+    hr{
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+
+
+    #hello{
+        margin-top: 6%;
+
+    }
+
+    #txtAboutMe{
+        text-align: justify;
+    }
+
+    #desc{
+        width:50%;
+        //background-color: blue;
+        margin:auto;
+        margin-top: 2%;
+        
+    }
+
+
+    #languages{
+        //background-color: cornflowerblue;
+    
+        #screenLang{
+            //background-color: rgb(222, 135, 208);
+            // width: 6%;
+             padding-left: 1%;
+             padding-right:1%;
+        }
+          
+    }
+    
+    #softs{
+        //background-color: yellow;
+    
+        #screenSofts{
+            padding-left: 2%;
+            padding-right:2%;
+        }
+    }
+    
+    #db{
+        //background-color: yellow;
+    
+        #screenBd{
+
+        }
+        
+    }
+
+    button#contactButton{
+        background-color:rgb(142,166,155);
+        padding: 5px;
+        border-radius: 10px;
+        background-color: brown;
+    }
+
+}
+
+@media screen and (min-width: 2500px){
+    body{
+        font-size: 15px;
+    }
+
+    header{
+        padding-bottom: 0.5%;
+
+    }
+
+    #banner{
+        padding-top:0.5%;
+        
+    }
+
+    .bloc{
+        margin-left: 16.5%;
+        margin-right: 17.5%;
+        width: 65%;
+        margin-top:0;
+    }
+
+    hr{
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+
+
+    #hello{
+        margin-top: 6%;
+
+    }
+
+    #txtAboutMe{
+        text-align: justify;
+    }
+
+    #desc{
+        width:40%;
+        //background-color: blue;
+        margin:auto;
+        margin-top:2%;
+    }
+
+
+    #languages{
+        //background-color: cornflowerblue;
+        width: 65%;
+          
+    }
+    
+
+    #contactMe{
+        margin-bottom: 5%;
+    }
+}

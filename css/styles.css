@@ -1,0 +1,247 @@
+
+body{
+    margin: 0;  
+    
+
+}
+/*-------------------BLOC HEADER-----------------------------*/
+header{
+    background-color: whitesmoke;
+    box-shadow: 1px 5px 20px #618297;
+    height: 100px;
+    width: 100%;
+    display: inline-flex;
+    position: fixed;
+    text-align: center;
+    top: 0;
+    align-items: center;
+}
+
+button{
+    width: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 0;
+    letter-spacing: 5px;
+    border: none;
+    font-family: 'Montserrat', serif;
+    margin: 30px;  
+}  
+
+.btnabout{
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+.profile_pic1{
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 150px;
+    padding-bottom: 25px;
+    height: 100px;
+    width: 100px;
+    float: left;
+    
+}
+
+
+/*----------------------TOP CONTAINER----------------------------*/
+
+.top_container {
+    background-color: whitesmoke;
+    
+    
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+/*titre principal*/
+h1{
+    width: 80%;
+    padding-top: 200px;
+    margin: 0 auto;
+    font-family: 'sacramento', cursive; 
+    font-size: 5rem;
+    
+    
+    
+}
+.p1{
+    font-family: 'Montserrat', cursive;
+}
+
+
+.pro{
+    text-decoration: underline;
+}
+
+.hill{
+    padding-top: 5em;
+    height: 100%;
+    width: 80%;
+}
+
+/*-----------------------MIDDLE CONTAINER----------------------------*/
+
+/*---------------PROFILE-----------------*/
+.middle_container {
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 75px;
+}
+hr{
+    border:none; 
+    border-top:10px dotted #618297;
+    width: 7%;
+    padding-bottom: 50px; 
+}
+
+
+.profile_pic{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 50px;
+    
+    
+}
+
+
+.hi_there{
+    text-align: center;
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-family: 'sacramento', cursive; 
+    font-size: 40px;
+}
+.intro{
+    font-family: 'Montserrat', cursive;
+    padding-bottom: 50px;
+    line-height: 150%;
+
+}
+
+/*---------------SKILLS----------------------*/
+
+.my_skills{
+    padding-top: 40px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 150px auto;
+    text-align: left;
+    line-height: 2;
+    font-family: 'Montserrat', cursive;
+}
+
+.computer-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+.chillies-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.samourai{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+
+}
+.sushi{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+}
+
+.contact-me{
+    padding-top: 30px;
+}
+
+
+/*------------------------BOTTOM CONTAINER---------------------------*/
+
+.bottom_container {
+    background-color: #618297;
+    text-align: center;
+    
+}
+
+.link{
+    height: 30px;
+}
+
+@media screen and (min-width: 650px){
+   
+    /*-------------------BLOC HEADER-----------------------------*/
+    header{
+        background-color: whitesmoke;
+        width: 100%;
+        display: inline-flex;
+        flex-direction: row;
+        position: fixed;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        top: 0;
+        
+    }
+    
+    button{
+        width: 120px;
+        background-color: transparent;
+        border: none;
+        font-family: 'Merriweather', serif;
+         
+        
+    }  
+    
+    button:hover {
+        color: white;
+        background-color:#618297 ;
+        border-radius: 20px ;
+        transition: 1s;
+        opacity: 0.8;
+      }
+    
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover{
+        color: whitesmoke;
+    }
+    
+    
+
+    .btnContact:hover{
+        color: whitesmoke;
+        background-color: #618297 ;
+        padding: 10px ;
+        border-radius: 20px;
+    }
+} 

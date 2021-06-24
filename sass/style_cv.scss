@@ -1,0 +1,618 @@
+body {
+    background-color: whitesmoke;
+    //overflow: hidden;
+    word-wrap: break-word;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+header{
+    width: 100%;
+    display: inline-block;
+    background-color: rgb(142,166,155);
+    top:0;
+    padding-bottom: 3%;
+    vertical-align: middle;
+    position:fixed;
+    z-index: 1000;
+}
+
+#banner{
+    margin : 0 auto;
+    //background-color: blue;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    padding-top:2%;
+}
+
+#mode{
+    //background-color: yellow;
+    padding-left: 5px;
+    float: left;
+    font-size: 13px;
+}
+
+#screenModeImg{
+    padding-top:3px;
+    height: 15px;  
+    
+}
+
+  
+#buttonNavigation{
+    //background-color: brown;
+    align-content: center;
+    vertical-align: middle;
+    //background-color: red;
+}
+
+button{
+    background-color: rgb(142,166,155);
+    padding-left: 1%;
+    padding-right: 1%;
+    border: none;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //background-color: red;
+}
+
+button:hover{
+   color:white
+}
+
+#homeImg{
+    width: 10%;
+    background-color: yellow;
+}
+#homeImg:hover{
+    background-color: salmon;
+}
+
+li{
+    list-style: none;
+}
+li::before{
+    content: "•";
+    padding-right: 10px;
+    color: rgb(142,166,155);
+    font-size:20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration:underline;
+    color: black;
+}
+
+
+section{
+    color : black;
+    //background-color: yellow;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left:2%;
+    padding-right:2%;
+    opacity: 1;
+    transition-duration: 0.5s;
+    
+    #Title{
+        font-size: 1.3em;
+        //background-color: red;
+    }
+
+    #Category{
+        text-align: center;
+        font-size: 30px;
+        //background-color: red;
+        text-decoration: underline overline rgb(142,166,155);
+        letter-spacing: 5px;
+        font-family: "Sofia", sans-serif;
+        cursor: default;
+        
+    }
+    
+    #SubCategory{
+        text-align: center;
+        font-size: 25px;
+        //background-color: red;
+        text-decoration: underline dotted 3px rgb(142,166,155);
+        font-style: oblique;
+    }
+}
+
+
+
+#aboutSection{
+    text-align: left;
+    padding-top: 10%;
+
+    #profileImg{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 275px;
+        height: 315px;
+        border-radius: 25%;
+        padding-top: 2%;
+        transition-duration: 2s;
+
+    }
+
+    #profileImg:hover{
+
+        content:url("../img/riccarde_smile_tr.png");
+        
+        //background-color: yellow;
+    }
+    #description{
+        //background-color: blueviolet;
+        width: 75%;
+        margin:auto;
+
+        #name{
+            font-size: 28px;
+            padding-left:10px;
+        }
+        #function{
+            float: right;
+            font-size: 20px;
+            padding-right:10px;
+        }
+        #corps{
+            padding-left:10px;
+            //background-color: red;
+        }
+        #network{
+            float: right;
+            padding-right:10px;
+        }
+        
+    }
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+    background-color: rgb(142,166,155);
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-top:5px;
+    
+}
+
+z{
+    color: rgb(142,166,155);
+}
+
+@media screen and (min-width: 490px){
+    button{
+        background-color: rgb(142,166,155);
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 14px;
+    }
+}
+
+//tablet
+@media screen and (min-width: 640px){
+
+    #buttonNavigation{
+        //background-color: brown;
+        align-content: center;
+        vertical-align: middle;
+    }
+    
+    button{
+        background-color: rgb(142,166,155);
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 15px;
+    }
+
+    section{
+        color : black;
+        //background-color: yellow;
+        padding-top: 1%;
+        padding-bottom: 5%;
+        padding-left:2%;
+        padding-right: 2% ;
+        opacity: 1;
+        transition-duration: 0.5s;
+    }
+
+    section#aboutSection{
+        padding-top: 10%;
+        //background-color: sandybrown;
+    }
+
+    header{
+        padding-bottom: 1.5%;
+
+    }
+
+}
+
+@media screen and (min-width: 790px) {
+    span#name, span#corps{
+        margin-left:10%;
+        //background-color: slateblue;
+    }
+
+    span#function, span#network{
+        margin-right:10%;
+    }
+
+    #mode{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    span#name, span#corps{
+        margin-left:20%;
+        //background-color: slateblue;
+    }
+
+    span#function, span#network{
+        margin-right:20%;
+    }
+}
+//Laptop
+@media screen and (min-width: 1260px) {
+
+body{
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    //overflow: hidden;
+}
+
+
+
+#about{
+    float:right;
+    width: 30%;
+    height: 100vh;
+    display: fixed;
+    background-color: rgb(142,166,155);
+
+}
+
+
+
+
+#aboutSection{
+    margin-top : 0;
+    //background-color: yellow;
+}
+
+header{
+    width: 70%;
+    //height: 5%;
+    display: inline-block;
+    background-color: whitesmoke;
+    top:0;
+    vertical-align: middle;
+    position:fixed;
+ 
+}
+
+#banner{
+    margin : 0 auto;
+    //background-color: blue;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 10px;
+}
+
+#mode{
+    //background-color: yellow;
+    padding-left: 10px;
+    float: left;
+    //font-size: 15px;
+}
+
+#screenModeImg{
+    padding-top:3px;
+    height: 15px;  
+}
+  
+#buttonNavigation{
+    //background-color: brown;
+    align-content: center;
+    vertical-align: middle;
+}
+
+button{
+    background-color: whitesmoke;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
+
+}
+
+
+button:hover{
+    color:rgb(142,166,155);
+    text-decoration: underline rgb(142,166,155);
+    
+ }
+
+.scroller {
+    width: 70%;
+    height: 100vh;
+    overflow-y: scroll;
+    scrollbar-color: rgb(142,166,155) whitesmoke;
+    scrollbar-width: thin;
+
+}
+
+
+#aboutSection{
+    text-align: left;
+    
+
+    #profileImg{
+          
+        width: 175px;
+        height: 200px;
+        border-radius: 10%;
+        padding-top: 2%;
+        transition-duration: 2s;
+        //background-color: pink;
+    
+    }
+
+    #description{
+        //background-color: blueviolet;
+        width: 70%;
+        margin:auto;
+
+        #name{
+            margin-left:0;
+            font-size: 26px;
+            padding-left:10px;
+        }
+        #function{
+            float: right;
+            font-size: 18px;
+            padding-right:10px;
+            margin-right:0;
+        }
+        #corps{
+            margin-left:0;
+            padding-left:10px;
+            font-size: 14px;
+            //background-color: red;
+        }
+        #network{
+            float: right;
+            padding-right:10px;
+            margin-right:0;
+        }
+
+
+        
+    }
+}
+
+
+
+#Category.contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    //background-color: aquamarine;
+    padding-top: 0;
+    margin-top: 0;
+    //font-size: 12px;
+}
+
+
+
+section{
+    color : black;
+    //background-color: yellow;
+    padding : 6% 3% 3% 3%;
+    
+    #Title{
+        font-size: 1.2em;
+        //background-color: red;
+    }
+
+    #Category{
+        text-align: center;
+        font-size: 30px;
+        //background-color: red;
+        text-decoration: underline overline rgb(142,166,155);
+        letter-spacing: 7px;
+        padding: 0;
+    }
+    
+    #SubCategory{
+        text-align: center;
+        font-size: 25px;
+        //background-color: red;
+        text-decoration: underline dotted 3px rgb(142,166,155);
+        font-style: oblique;
+    }
+}
+
+    footer{
+        width:70%;
+    }
+
+
+    #educations, #skills #experiences{
+        height: 100vh;
+    }
+
+
+    #skills{
+        //background-color: yellowgreen;
+    }
+
+    #educations{
+        //background-color: blueviolet;
+    }
+
+    #flex{
+        //background-color: brown;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-self: center;
+        align-items: center;
+        justify-content:baseline;
+
+    }
+
+
+}
+
+@media screen and (min-width: 1580px){
+
+    body{
+        font-size: 15px;
+        //overflow: hidden;
+    }
+
+    span#mode{
+        font-size: 18px;
+    }
+    
+    #about{
+        width: 25%;
+        height: 100vh;
+    }
+
+    header{
+        width: 75%;
+        height: 5%;
+    }
+    
+
+    button{
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 20px;
+        letter-spacing: 7px;
+    }
+    
+    .scroller {
+        width: 75%;
+    }
+
+    #aboutSection{
+
+        #profileImg{
+          
+            width: 275px;
+            height: 300px;
+            border-radius: 10%;
+            padding-top: 2%;
+            transition-duration: 2s;
+            //background-color: pink;
+        
+        }
+    
+        #description{
+            width: 75%;
+
+            #name{
+                font-size: 30px;
+            }
+            #function{
+                font-size: 20px;
+            }
+            #corps{
+                font-size: 16px;
+                //background-color: red;
+            }
+            #network{
+                font-size: 18px;
+                //background-color: aqua;
+            }
+            
+        }
+    }
+
+    footer{
+        width:75%;
+    }
+}
+
+@media screen and (min-width: 2200px){
+
+    body{
+        font-size: 15px;
+        //overflow: hidden;
+    }
+    
+    #about{
+        width: 25%;
+        height: 100vh;
+    }
+
+    button{
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 20px;
+        letter-spacing: 7px;
+    }
+    
+    .scroller {
+        width: 75%;
+    }
+
+    #aboutSection{
+    
+        #description{
+            width: 75%;
+
+            #name{
+                font-size: 36px;
+            }
+            #function{
+                font-size: 26px;
+            }
+            #corps{
+                font-size: 1.25em;
+                //background-color: red;
+            }
+            #network{
+                font-size: 1.25em;
+            }
+            
+        }
+    }
+
+    footer{
+        width:75%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+  
+
