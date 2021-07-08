@@ -1,33 +1,31 @@
 //checkDevice();
-
-var btnText = document.getElementById('btnTranslate');
-var imgContact = document.getElementById("imgContact");
+// alertJs();
 
 //window.addEventListener('resize', checkDevice);
-document.getElementById("btnContener").addEventListener('click', alertJs);
-document.getElementById("btnTranslate").addEventListener('click', checkLanguage);
+document.getElementById("contactButton").addEventListener('click', alertJs);
+//document.getElementById("btnTranslate").addEventListener('click', checkLanguage);
 
 
 function alertJs(){
-    // Swal.fire(
-    //     '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <b><i class="fa fa-phone-square" aria-hidden="true"></i></b> : 0472 13 40 56</span><br>',
-    //     '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <b><i class="fa fa-envelope" aria-hidden="true"></i></b> <a href="mailto:fpbraibant@gmail.com" > : fpbraibant@gmail.com</a></span><br>',
-    //   )
+    //  Swal.fire(
+    //      '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <b><i class="fa fa-phone-square" aria-hidden="true"></i></b> : 0472 13 40 56</span><br>',
+    //      '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <b><i class="fa fa-envelope" aria-hidden="true"></i></b> <a href="mailto:fpbraibant@gmail.com" > : fpbraibant@gmail.com</a></span><br>',
+    //    )
 
-    if (document.body.clientWidth > 650){
-        Swal.fire({
-            html: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <b><div id="alert"<i class="fa fa-phone-square" aria-hidden="true"></i></div></b> <br>0472 13 40 56</span><br><b> <div id="alert"><i class="fa fa-envelope" aria-hidden="true"></i></div></b> <a href="mailto:fpbraibant@gmail.com">fpbraibant@gmail.com</a></span><br>   <div id="alert"><i class="fa fa-linkedin-square"></i></div><a href="https://www.linkedin.com/in/frapebs-braibant-baaa0220a/"> Linkedin',
-            imageUrl: '../img/ordi.png',
-            confirmButtonText: 'OK',
-            confirmButtonColor: 'rgb(142,166,155)',
-          })
-    }else{
-           Swal.fire({
-                html: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <b><div id="alert"<i class="fa fa-phone-square" aria-hidden="true"></i></div></b> <br>0472 13 40 56</span><br><b> <div id="alert"><i class="fa fa-envelope" aria-hidden="true"></i></div></b> <a href="mailto:fpbraibant@gmail.com">fpbraibant@gmail.com</a></span><br>   <div id="alert"><i class="fa fa-linkedin-square"></i></div><a href="https://www.linkedin.com/in/frapebs-braibant-baaa0220a/"> Linkedin',
-                confirmButtonText: 'OK',
-                confirmButtonColor: 'rgb(142,166,155)',
-            })
-    }
+     if (document.body.clientWidth > 650){
+         Swal.fire({
+             html: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <b><div id="alert"<i class="fa fa-phone-square" aria-hidden="true"></i></div></b> <br>0472 13 40 56</span><br><b> <div id="alert"><i class="fa fa-envelope" aria-hidden="true"></i></div></b> <a href="mailto:fpbraibant@gmail.com">fpbraibant@gmail.com</a></span><br>   <div id="alert"><i class="fa fa-linkedin-square"></i></div><a href="https://www.linkedin.com/in/frapebs-braibant-baaa0220a/"> Linkedin',
+             imageUrl: '../img/ordi.png',
+             confirmButtonText: 'OK',
+             confirmButtonColor: 'rgb(142,166,155)',
+           })
+     }else{
+            Swal.fire({
+                 html: '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <b><div id="alert"<i class="fa fa-phone-square" aria-hidden="true"></i></div></b> <br>0472 13 40 56</span><br><b> <div id="alert"><i class="fa fa-envelope" aria-hidden="true"></i></div></b> <a href="mailto:fpbraibant@gmail.com">fpbraibant@gmail.com</a></span><br>   <div id="alert"><i class="fa fa-linkedin-square"></i></div><a href="https://www.linkedin.com/in/frapebs-braibant-baaa0220a/"> Linkedin',
+                 confirmButtonText: 'OK',
+                 confirmButtonColor: 'rgb(142,166,155)',
+             })
+     }
 }
 
 
